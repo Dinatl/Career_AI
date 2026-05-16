@@ -1,0 +1,17 @@
+/vendor
+/node_modules
+/.env
+/storage/*.key
+/public/storage
+/public/hot
+/public/build/hot
+.git
+.github
+.env.example
+.editorconfig
+.phpunit.result.cache
+docker-compose.yml
+Dockerfile
+README.md
+phpunit.xml
+tests
