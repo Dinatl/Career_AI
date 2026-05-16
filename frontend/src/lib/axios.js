@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance configured to communicate with the Laravel backend
 const api = axios.create({
-    baseURL: 'http://127.0.0.1:8000/api', // The Laravel API URL
+    baseURL: 'https://career-ai-backend-qpte.onrender.com/api', // The Laravel API URL
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
