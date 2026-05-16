@@ -35,6 +35,7 @@ COPY . .
 # Install dependencies
 RUN composer install --no-interaction --optimize-autoloader --no-dev
 RUN npm install && npm run build
+RUN php artisan route:list
 
 # Configure Apache
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
